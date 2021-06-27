@@ -389,6 +389,30 @@ left: 20px;
 /* .products{
     text-align: center;
 } */
+.products .list-product{
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+}
+.products .list-product li{
+    margin-right: 70px;
+    background: dodgerblue;
+    display: inline-block;
+    width: 65px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 18px;
+    font-size: 18px;
+    color: white;
+    transition: transform .5s;
+    cursor: pointer;
+ }
+.products .list-product li:hover{
+    transform: skewX(30deg) scaleY(1.2);
+}
+
+
+
 .products-items .list-unstyle {
    display: flex;
    justify-content: center;
